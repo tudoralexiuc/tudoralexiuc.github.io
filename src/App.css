@@ -1,0 +1,1128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: DMSans-Regular;
+    src: url(./assets/DMSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: DMSans-Medium;
+    src: url(./assets/DMSans-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: DMSans-Bold;
+    src: url(./assets/DMSans-Bold.ttf);
+  }
+
+.App{
+    cursor: url(./assets/testingcursor.png), auto;
+}  
+
+.homepage{
+    min-height: 100vh;
+}
+
+.backgroundVideo{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.name{
+    position: absolute;
+    font-size: 2rem;
+    top: 40%;
+    left: 41%;
+    font-family: "DMSans-Medium";
+}
+
+.enter{
+    position: absolute;
+    top: 50%;
+    left: 44.5%;
+    width: 5.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border-radius: 0.05rem;
+    border: 1.5px solid black;
+    font-family: "DMSans-Regular";
+}
+
+.enter:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s ease;
+    color: white;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.tudoralexiuc{
+    font-size: 3rem;
+    width: 22.5%;
+    font-family: "DMSans-Bold";
+    padding-top: 2rem;
+    padding-left: 1rem;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.tudoralexiuc:hover{
+    color: rgb(172, 172, 172);
+}
+
+.about{
+    font-size: 1.5rem;
+    width: 5%;
+    font-family: "DMSans-Regular";
+    padding-top: 1rem;
+    padding-left: 1rem;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.about:hover{
+    color: rgb(216, 216, 216);
+}
+
+.cv{
+    font-size: 1.5rem;
+    width: 4%;
+    font-family: "DMSans-Regular";
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.cv:hover{
+    color: rgb(216, 216, 216);
+}
+
+.availableWork{
+    font-size: 1.5rem;
+    width: 11%;
+    font-family: "DMSans-Regular";
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.availableWork:hover{
+    color: rgb(216, 216, 216);
+}
+
+.aboutBody{
+    min-height: 100vh;
+}
+
+.introduction{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    background-color: white;
+    left: 45%;
+    top: 75%;
+    padding: 2rem;
+    width: 35%;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.testingLogo{
+    position: absolute;
+    left: 50%;
+    top: -14%;
+}
+
+.testing{
+    width: 256px;
+    height: 256px;
+    animation: testing1Logo 3s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes testing1Logo{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.testingLogo2{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+}
+
+.testing2{
+    width: 128px;
+    height: 128px;
+    animation: testing2Logo 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes testing2Logo{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.testingLogo3{
+    position: absolute;
+    left: 2%;
+    top: 38%;
+}
+
+.testing3{
+    width: 412px;
+    height: 412px;
+    animation: testing3Logo 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes testing3Logo{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.cvBody{
+    cursor: url(./assets/testingcursor.png), auto;
+    min-height: 100vh;
+}
+
+.leftColumn{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+.contact{
+    padding-bottom: 2rem;
+}
+
+.contact h1{
+    padding-bottom: 1rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.contact h5{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.nationality{
+    padding-bottom: 2rem;
+}
+
+.nationality h1{
+    padding-bottom: 1rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.nationality h5{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.skills{
+    padding-bottom: 2rem;
+}
+
+.skills h1{
+    padding-bottom: 1rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.skills h5{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.languages{
+    padding-bottom: 2rem;
+}
+
+.languages h1{
+    padding-bottom: 1rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.languages h5{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.rightColumn{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+
+.education{
+    padding-bottom: 2rem;
+}
+
+.education h1{
+    padding-bottom: 1rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.education h5{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.education h6{
+    padding-left: 0.3rem;
+    font-size: 8px;
+    color: grey;
+}
+
+.courses{
+    padding-bottom: 2rem;
+}
+
+.courses h1{
+    padding-bottom: 0.5rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.courses h5{
+    padding: 0.2rem;
+    font-size: 10px;
+    font-family: "DMSans-Regular";
+}
+
+.courses h6{
+    padding-left: 0.3rem;
+    font-size: 8px;
+    color: grey;
+}
+
+.projects{
+    padding-bottom: 2rem;
+}
+
+.projects h1{
+    padding-bottom: 1rem;
+    font-family: "DMSans-Medium";
+    font-size: 20px;
+}
+
+.projects h5{
+    margin-top: 0.5rem;
+    font-size: 12px;
+    font-family: "DMSans-Medium";
+}
+
+.projects h6{
+    margin-top: 0.8rem;
+    font-size: 10px;
+    width: 40%;
+    font-family: "DMSans-Regular";
+}
+
+hr{
+    width: 50px;
+    height: 0.2rem;
+    background-color: #ffe400;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.dot {
+    margin-left: 0.3rem;
+    transform: translateX(8rem) translateY(-1.4rem);
+    height: 5px;
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot2 {
+    margin-left: 0.3rem;
+    transform: translateX(8rem) translateY(-1.38rem);
+    background-color: transparent;
+    border: 0.01px solid black;
+    border-radius: 50%; 
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+  }
+
+  .availableworkBody{
+      min-height: 100vh;
+  }
+
+  .sneak{
+      position: absolute;
+      top: 55%;
+      left: 15%;
+      width: 200px;
+      height: 300px;
+      border-radius: 0.5rem;
+      border: 1px solid black;
+      box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+      background-image: linear-gradient(to top, #ffe403 50%, transparent 50%);
+      background-size: 100% 200%;
+      background-position: top;
+      transition: background-position 0.5s ease-in-out;
+      color: black;
+  }
+
+  .sneak:hover{
+      background-position: bottom;
+      cursor: url(./assets/testingcursor2.png), pointer;
+  }
+
+  .sneak h1{
+      font-family: "DMSans-Medium";
+      font-size: 1.5rem;
+      align-items: center;
+      text-align: center;
+        margin-top: 3rem;
+  }
+
+  .f1grandstands{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 200px;
+    height: 300px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    box-shadow: -4px -4px 0px 0px rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, #ffe403 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: background-position 0.5s ease-in-out;
+    color: black;
+}
+
+.f1grandstands:hover{
+    background-position: top;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.f1grandstands h1{
+    font-family: "DMSans-Medium";
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.formula2{
+    width: 325px;
+    height: 85px;
+    position: absolute;
+    top: 8rem;
+    left: -3.5rem;
+    animation: formula3 1s ease-in-out infinite alternate;
+}
+
+@keyframes formula3{
+    from {
+        transform: translateX(-6%);
+    }   to {
+        transform: translateX(6%);
+    }
+}
+
+.agentk9{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 200px;
+    height: 300px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    box-shadow: -4px 4px 0px 0px rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #ffe403 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease-in-out;
+    color: black;
+}
+
+.agentk9:hover{
+    background-position: bottom;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.agentk9 h1{
+    font-family: "DMSans-Medium";
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.dog{
+    width: 165px;
+    height: 64px;
+    position: absolute;
+    top: 9rem;
+    left: 1.5rem;
+    animation: dog1 1s ease-in-out infinite alternate;
+}
+
+@keyframes dog1{
+    from {
+        transform: translateY(-20%);
+    } to {
+        transform: translateY(20%);
+    }
+}
+
+.saunakoning{
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    width: 200px;
+    height: 300px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    box-shadow: 4px -4px 0px 0px rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, #ffe403 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: background-position 0.5s ease-in-out;
+    color: black;
+}
+
+.saunakoning:hover{
+    background-position: top;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.saunakoning h1{
+    font-family: "DMSans-Medium";
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.sauna{
+    position: absolute;
+    top: 8rem;
+    left: 3.9rem;
+}
+
+#steam{
+    animation: steam1 1s ease-in-out infinite alternate;
+}
+
+@keyframes steam1{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(-10%);
+    }
+}
+
+#rocks{
+    animation: rocks1 1s ease-in-out infinite alternate;
+}
+
+@keyframes rocks1{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(10%);
+    }
+}
+
+.yellowflower1{
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    transform: rotate(120deg);
+    top: 30%;
+    left: -5%;
+}
+
+.yellowflower2{
+    width: 220px;
+    height: 300px;
+    top: -20%;
+    left: 20%;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.yellowflower3{
+    width: 220px;
+    height: 300px;
+    top: -7%;
+    left: 60%;
+    position: absolute;
+    transform: rotate(270deg);
+}
+
+.blackflower1{
+    width: 220px;
+    height: 300px;
+    top: 57.5%;
+    left: 79.95%;
+    transform: rotate(250deg);
+    position: absolute;
+}
+
+.blackflower2{
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    top: 58.5%;
+    left: 35%;
+}
+
+.sneakBody{
+    min-height: 168vh;
+}
+
+.skateboard{
+    width: 275px;
+    height: 86px;
+    position: absolute;
+    top: 8rem;
+    left: -2.2rem;
+}
+
+#leftskateboard{
+    animation: leftskateboard2 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes leftskateboard2{
+    from{
+        transform: translateX(-4%);
+    } to {
+        transform: translateX(6%);
+    }
+}
+
+#rightskateboard{
+    animation: rightskateboard2 1.5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rightskateboard2{
+    from{
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.landingText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.landingPage{
+    width: 40rem;
+    height: 20rem;
+    margin-left: 47rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.shopText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    padding: 2rem;
+    margin-left: 60rem;
+}
+
+.shopPage{
+    width: 40rem;
+    height: 20rem;
+    margin-left: 2rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.yellowarrow{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 35%;
+    left: 20%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+.yellowarrow2{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 100%;
+    left: 75%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+@keyframes yellowarrow3{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(20%);
+    }
+}
+
+.backToAvailableWork{
+    position: absolute;
+    left: 75%;
+    top: 158%;
+    width: 150px;
+    height: 80px;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.backToAvailableWork:hover{
+    background-color: #FFE403;
+    transition: 0.2s ease;
+    color: black;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.landingpageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;
+}
+
+.shoppageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;;
+}
+
+
+ /* f1 grandstands */
+
+
+ .f1grandstandsBody{
+    min-height: 258vh;
+}
+
+.landingText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.F1landingPage{
+    width: 40rem;
+    height: 58rem;
+    margin-left: 47rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.F1landingpageImage{
+    width: 40rem;
+}
+
+.signUpText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    padding: 2rem;
+    margin-left: 60rem;
+}
+
+.signUpPage{
+    width: 40rem;
+    height: 22.5rem;
+    margin-left: 2rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.signUpImage{
+    width: 40rem;
+    border-radius: 0.65rem;
+}
+
+.yellowarrow3{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 115%;
+    left: 20%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+.yellowarrow4{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 190%;
+    left: 75%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+@keyframes yellowarrow3{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(20%);
+    }
+}
+
+.backToAvailableWork2{
+    position: absolute;
+    left: 75%;
+    top: 246%;
+    width: 150px;
+    height: 80px;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.backToAvailableWork2:hover{
+    background-color: #FFE403;
+    transition: 0.2s ease;
+    color: black;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.landingpageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;
+}
+
+.shoppageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;;
+}
+
+/* Agent K9 */
+
+.AgentK9Body{
+    min-height: 180vh;
+}
+
+.landingText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.AgentK9landingPage{
+    width: 40rem;
+    height: 22.5rem;
+    margin-left: 47rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.startgameVideo{
+    width: 40rem;
+    border-radius: 0.6rem;
+}
+
+.defeatingText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    padding: 2rem;
+    margin-left: 30rem;
+}
+
+.defeatingbossPage{
+    width: 40rem;
+    height: 22.4rem;
+    margin-left: 2rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.defeatingbossVideo{
+    width: 40rem;
+    border-radius: 0.6rem;
+}
+
+.yellowarrow5{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 35%;
+    left: 20%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+.yellowarrow6{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 110%;
+    left: 75%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+@keyframes yellowarrow3{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(20%);
+    }
+}
+
+.backToAvailableWork3{
+    position: absolute;
+    left: 75%;
+    top: 165%;
+    width: 150px;
+    height: 80px;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.backToAvailableWork3:hover{
+    background-color: #FFE403;
+    transition: 0.2s ease;
+    color: black;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.landingpageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;
+}
+
+.shoppageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;;
+}
+
+/* Sauna Koning */
+
+.f1grandstandsBody{
+    min-height: 258vh;
+}
+
+.landingText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.F1landingPage{
+    width: 40rem;
+    height: 58rem;
+    margin-left: 47rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.F1landingpageImage{
+    width: 40rem;
+}
+
+.signUpText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    padding: 2rem;
+    margin-left: 60rem;
+}
+
+.signUpPage{
+    width: 40rem;
+    height: 22.5rem;
+    margin-left: 2rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.signUpImage{
+    width: 40rem;
+    border-radius: 0.65rem;
+}
+
+.yellowarrow3{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 115%;
+    left: 20%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+.yellowarrow4{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 190%;
+    left: 75%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+@keyframes yellowarrow3{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(20%);
+    }
+}
+
+.backToAvailableWork2{
+    position: absolute;
+    left: 75%;
+    top: 246%;
+    width: 150px;
+    height: 80px;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.backToAvailableWork2:hover{
+    background-color: #FFE403;
+    transition: 0.2s ease;
+    color: black;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
+
+.landingpageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;
+}
+
+.shoppageImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.6rem;;
+}
+
+/* Agent K9 */
+
+.saunakoningBody{
+    min-height: 285vh;
+}
+
+.landingText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.SaunalandingPage{
+    width: 40rem;
+    height: 43.6rem;
+    margin-left: 47rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.SaunalandingpageImage{
+    width: 40rem;
+    border-radius: 0.6rem;
+}
+
+.productsText{
+    font-size: 6rem;
+    font-family: "DMSans-Medium";
+    padding: 2rem;
+    margin-left: 53rem;
+}
+
+.SaunaproductsPage{
+    width: 40rem;
+    height: 53.9rem;
+    margin-left: 2rem;
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+
+.SaunaproductsImage{
+    width: 40rem;
+    border-radius: 0.6rem;
+}
+
+.yellowarrow7{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 80%;
+    left: 20%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+.yellowarrow8{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 220%;
+    left: 75%;
+    animation: yellowarrow3 1s ease-in-out infinite alternate;
+}
+
+@keyframes yellowarrow3{
+    from{
+        transform: translateY(0%);
+    } to {
+        transform: translateY(20%);
+    }
+}
+
+.backToAvailableWork4{
+    position: absolute;
+    left: 75%;
+    top: 275%;
+    width: 150px;
+    height: 80px;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.backToAvailableWork4:hover{
+    background-color: #FFE403;
+    transition: 0.2s ease;
+    color: black;
+    cursor: url(./assets/testingcursor2.png), pointer;
+}
