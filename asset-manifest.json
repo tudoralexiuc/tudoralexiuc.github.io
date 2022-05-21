@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da558a62.css",
+    "main.js": "/static/js/main.63f418c3.js",
+    "static/media/video.mp4": "/static/media/video.649cdb59b0d29b037fde.mp4",
+    "static/media/startgame.mp4": "/static/media/startgame.fa3b759b4b8c5c1f1a8c.mp4",
+    "static/media/saunalanding.png": "/static/media/saunalanding.01468473aef47b1c3dee.png",
+    "static/media/defeatingboss.mp4": "/static/media/defeatingboss.7cf70cb00f787eda777d.mp4",
+    "static/media/landing.png": "/static/media/landing.336bf63b5e33c6385613.png",
+    "static/media/shoppage.jpeg": "/static/media/shoppage.5b9c91ff77ca0152923c.jpeg",
+    "static/media/saunaproducts.png": "/static/media/saunaproducts.1cff38e21e8af0652284.png",
+    "static/media/landingpage.jpeg": "/static/media/landingpage.a16f2a7a2e19618158f0.jpeg",
+    "static/media/signup.png": "/static/media/signup.f7d3f59d5b35388a58e5.png",
+    "static/media/DMSans-Regular.ttf": "/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Bold.ttf": "/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
+    "static/media/DMSans-Medium.ttf": "/static/media/DMSans-Medium.150680530af9dd9fd00b.ttf",
+    "static/media/testing.svg": "/static/media/testing.06007e9dd3801f25d129a8aa6b801cc4.svg",
+    "static/media/f1.svg": "/static/media/f1.ceafed84af9ecfb77205cb0ab8672ec9.svg",
+    "static/media/sauna.svg": "/static/media/sauna.ca66cfdca188d09d6f9c08d363580799.svg",
+    "static/media/dog.svg": "/static/media/dog.0224c209ebf2fa19585c006786f6ed62.svg",
+    "static/media/skateboard.svg": "/static/media/skateboard.e2f100bfaab0655046b1f8537d212a0d.svg",
+    "static/media/yellowflower.svg": "/static/media/yellowflower.837c4501a6efaf2f0b0a3684deed3175.svg",
+    "static/media/blackflower.svg": "/static/media/blackflower.e334c72eff0d8f153e9f56c5ef3ca67d.svg",
+    "static/media/yellowarrow2.svg": "/static/media/yellowarrow2.d19c9a082f73046759bf35a9bf148758.svg",
+    "static/media/arrow.svg": "/static/media/arrow.c407e9052fbfa68c76f14a01f2015d03.svg",
+    "index.html": "/index.html",
+    "main.da558a62.css.map": "/static/css/main.da558a62.css.map",
+    "main.63f418c3.js.map": "/static/js/main.63f418c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da558a62.css",
+    "static/js/main.63f418c3.js"
+  ]
+}
