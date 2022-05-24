@@ -23,94 +23,150 @@ export default function CV() {
             <div className="skills">
             <hr></hr>
                 <h1>skills</h1>
+                <div className="skillsColumn">
                 <h5>Adobe XD</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>Figma</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>Axure</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>HTML</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>CSS</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>JavaScript</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>UX/UI</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>GIT</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>Unity</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>C#</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>Blender</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
             </div>
             <div className="languages">
             <hr></hr>
                 <h1>languages</h1>
+                <div className="skillsColumn">
                 <h5>English</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>Dutch</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
                 <span className="dot2"></span>
+                </div>
+                </div>
+                <div className="skillsColumn">
                 <h5>Romanian</h5>
+                <div className="dots">
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
+                </div>
+                </div>
             </div>
         </div>
         <div className="rightColumn">

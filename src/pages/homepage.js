@@ -12,6 +12,7 @@ export default function Homepage() {
 
   return ( 
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
           <body className="homepage">
               <video className="backgroundVideo" autoPlay loop muted>
                   <source src={Video} type="video/mp4" />

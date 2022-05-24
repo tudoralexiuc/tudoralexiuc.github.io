@@ -19,6 +19,10 @@ export default function AvailableWork() {
     <div className="availableworkBody">
         <NavigationBar />
         <img className="yellowflower1" src={YellowFlower} />
+        <img className="blackflower1" src={BlackFlower} />
+        <img className="yellowflower3" src={YellowFlower} />
+        <img className="blackflower2" src={BlackFlower} />
+        <img className="yellowflower2" src={YellowFlower} />
         <div className="sneak" onClick={() => routeChange("/sneak")}>
             <h1>sneak</h1>
             <svg className="skateboard" width="182" height="288" viewBox="0 0 182 288" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,17 +48,14 @@ export default function AvailableWork() {
 </g>
 </svg>
         </div>
-        <img className="blackflower1" src={BlackFlower} />
         <div className="f1grandstands" onClick={() => routeChange("/f1grandstands")}>
             <h1>f1 grandstands</h1>
             <img className="formula2" src={Formula1} />
         </div>
-        <img className="yellowflower3" src={YellowFlower} />
         <div className="agentk9" onClick={() => routeChange("/agentk9")}>
             <h1>agent k9</h1>
             <img className="dog" src={Dog} />
         </div>
-        <img className="blackflower2" src={BlackFlower} />
         <div className="saunakoning" onClick={() => routeChange("/saunakoning")}>
             <h1>sauna koning</h1>
             <svg className="sauna" width="80" height="111" viewBox="0 0 240 261" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +104,6 @@ export default function AvailableWork() {
 </svg>
 
         </div>
-        <img className="yellowflower2" src={YellowFlower} />
     </div>
   );
 }

@@ -38,10 +38,12 @@
 }
 
 .name{
-    position: absolute;
     font-size: 2rem;
+    text-align: center;
+    position: absolute;
     top: 40%;
-    left: 41%;
+    left: 47%;
+    transform: translate(-50%, -50%);
     font-family: "DMSans-Medium";
 }
 
@@ -116,6 +118,8 @@
     color: rgb(216, 216, 216);
 }
 
+/* about page */
+
 .aboutBody{
     min-height: 100vh;
 }
@@ -129,7 +133,7 @@
     top: 75%;
     padding: 2rem;
     width: 35%;
-    font-size: 10px;
+    font-size: 20px;
     font-family: "DMSans-Regular";
 }
 
@@ -202,15 +206,17 @@
     }
 }
 
+/* CV */
+
 .cvBody{
     cursor: url(./assets/testingcursor.png), auto;
-    min-height: 100vh;
+
 }
 
 .leftColumn{
     position: absolute;
     left: 35%;
-    top: 10%;
+    top: 5%;
 }
 
 .contact{
@@ -241,7 +247,7 @@
 
 .nationality h5{
     padding: 0.2rem;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "DMSans-Regular";
 }
 
@@ -253,11 +259,16 @@
     padding-bottom: 1rem;
     font-family: "DMSans-Medium";
     font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(0, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .skills h5{
     padding: 0.2rem;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "DMSans-Regular";
 }
 
@@ -273,14 +284,14 @@
 
 .languages h5{
     padding: 0.2rem;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "DMSans-Regular";
 }
 
 .rightColumn{
     position: absolute;
     left: 60%;
-    top: 10%;
+    top: 5%;
 }
 
 .education{
@@ -295,7 +306,7 @@
 
 .education h5{
     padding: 0.2rem;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "DMSans-Regular";
 }
 
@@ -317,7 +328,7 @@
 
 .courses h5{
     padding: 0.2rem;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "DMSans-Regular";
 }
 
@@ -339,14 +350,14 @@
 
 .projects h5{
     margin-top: 0.5rem;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "DMSans-Medium";
 }
 
 .projects h6{
     margin-top: 0.8rem;
-    font-size: 10px;
-    width: 40%;
+    font-size: 12px;
+    width: 45%;
     font-family: "DMSans-Regular";
 }
 
@@ -358,19 +369,29 @@ hr{
     border-radius: 0.8rem;
 }
 
-.dot {
+.skillsColumn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsColumn .dots{
+    padding-left: 5rem;
+    transform: translateY(-15%);
+}
+
+
+.dot{
     margin-left: 0.3rem;
-    transform: translateX(8rem) translateY(-1.4rem);
     height: 5px;
     width: 5px;
     background-color: rgb(0, 0, 0);
+    border: 0.01px solid black;
     border-radius: 50%;
     display: inline-block;
   }
 
   .dot2 {
     margin-left: 0.3rem;
-    transform: translateX(8rem) translateY(-1.38rem);
     background-color: transparent;
     border: 0.01px solid black;
     border-radius: 50%; 
@@ -378,6 +399,8 @@ hr{
     height: 5px;
     display: inline-block;
   }
+
+  /* available work */
 
   .availableworkBody{
       min-height: 100vh;
@@ -566,46 +589,46 @@ hr{
 .yellowflower1{
     width: 220px;
     height: 300px;
-    position: absolute;
     transform: rotate(120deg);
-    top: 30%;
-    left: -5%;
+    float: bottom;
 }
 
 .yellowflower2{
     width: 220px;
     height: 300px;
-    top: -20%;
+    position: fixed;
+    top: 0;
     left: 20%;
-    position: absolute;
     transform: rotate(180deg);
 }
 
 .yellowflower3{
     width: 220px;
     height: 300px;
-    top: -7%;
-    left: 60%;
-    position: absolute;
+    position: fixed;
+    top: 0;
     transform: rotate(270deg);
+    right: 0;
 }
 
 .blackflower1{
     width: 220px;
     height: 300px;
-    top: 57.5%;
-    left: 79.95%;
     transform: rotate(250deg);
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .blackflower2{
-    position: absolute;
     width: 220px;
     height: 300px;
-    top: 58.5%;
-    left: 35%;
+    position: fixed;
+    left: 30%;
+    bottom: 0;
 }
+
+/* sneak page */
 
 .sneakBody{
     min-height: 168vh;
@@ -648,14 +671,14 @@ hr{
 .landingText{
     font-size: 6rem;
     font-family: "DMSans-Medium";
-    margin-left: 10rem;
-    margin-top: 2rem;
+    position: relative;
+    left: 20%;
+    top: 10%;
 }
 
 .landingPage{
-    width: 40rem;
-    height: 20rem;
-    margin-left: 47rem;
+    width: 30.3%;
+    float: right;
     border: 5px solid black;
     border-radius: 1rem;
 }
@@ -663,24 +686,24 @@ hr{
 .shopText{
     font-size: 6rem;
     font-family: "DMSans-Medium";
-    padding: 2rem;
-    margin-left: 60rem;
+    float: right;
 }
 
 .shopPage{
     width: 40rem;
-    height: 20rem;
-    margin-left: 2rem;
+    position: relative;
+    left: 20%;
+    top: 70%;
     border: 5px solid black;
     border-radius: 1rem;
 }
 
 .yellowarrow{
-    position: absolute;
     width: 150px;
     height: 350px;
-    top: 35%;
+    position: relative;
     left: 20%;
+    top: 70%;
     animation: yellowarrow3 1s ease-in-out infinite alternate;
 }
 
