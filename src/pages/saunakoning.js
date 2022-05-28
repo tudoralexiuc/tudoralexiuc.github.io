@@ -12,7 +12,7 @@ export default function Homepage() {
   const routeChange = () => {
     let path = "/availablework";
     navigate(path);
-  };
+  }; 
 
   return ( 
     <div>
