@@ -3,7 +3,7 @@ import "../App.css";
 import  NavigationBar from "../components/navigationbar";
 import Arrow from "../assets/arrow.svg"
 import Arrow2 from "../assets/yellowarrow2.svg"
-import Landingpage from "../assets/landingpage.jpeg"
+import Landingpage from "../assets/SneakLanding.png"
 import Shoppage from "../assets/shoppage.jpeg"
 
 export default function Homepage() {

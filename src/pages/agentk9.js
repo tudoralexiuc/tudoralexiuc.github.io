@@ -16,21 +16,17 @@ export default function Homepage() {
 
   return ( 
     <div className="AgentK9Body">
-         <h1 className="landingText">gameplay</h1>
-        <div className="AgentK9landingPage">         
-        <video className="startgameVideo" autoPlay loop muted>
+         <h1 className="landingText">gameplay</h1>       
+        <video className="landingpageImage3" autoPlay loop muted>
                   <source src={StartAgentVideo} type="video/mp4" />
               </video>
-        </div>
-        <img className="yellowarrow5" src={Arrow} />
-        <h1 className="defeatingText">defeating the boss</h1>
-        <div className="defeatingbossPage">
-        <video className="defeatingbossVideo" autoPlay loop muted>
+        <img className="yellowarrow" src={Arrow} />
+        <h1 className="shopText3">defeating the boss</h1>
+        <video className="shoppageImage3" autoPlay loop muted>
                   <source src={DefeatingBossVideo} type="video/mp4" />
               </video>
-        </div>
-        <img className="yellowarrow6" src={Arrow2} />
-        <button className="backToAvailableWork3" onClick={() => routeChange("/availablework")}><h2>back</h2></button>
+        <img className="yellowarrow2" src={Arrow2} />
+        <button className="backToAvailableWork" onClick={() => routeChange("/availablework")}><h2>back</h2></button>
     </div>
   );
 }

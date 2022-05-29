@@ -16,11 +16,11 @@ export default function Homepage() {
 
   return ( 
     <div className="f1grandstandsBody">
-        <h1 className="landingText">landing</h1>
-        <div className="F1landingPage"><img className="F1landingpageImage" src={F1Landingpage} /></div>
+        <h1 className="landingText2">landing</h1>
+        <div className="F1landingPage"><img className="landingpageImage2" src={F1Landingpage} /></div>
         <img className="yellowarrow3" src={Arrow} />
-        <h1 className="signUpText">sign up</h1>
-        <div className="signUpPage"><img className="signUpImage" src={SignUppage} /></div>
+        <h1 className="shopText2">sign up</h1>
+        <div className="signUpPage"><img className="shoppageImage2" src={SignUppage} /></div>
         <img className="yellowarrow4" src={Arrow2} />
         <button className="backToAvailableWork2" onClick={() => routeChange("/availablework")}><h2>back</h2></button>
     </div>

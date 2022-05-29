@@ -18,11 +18,11 @@ export default function Homepage() {
     <div>
         <div className="saunakoningBody">
         <h1 className="landingText">landing</h1>
-        <div className="SaunalandingPage"><img className="SaunalandingpageImage" src={SaunaLanding} /></div>
-        <img className="yellowarrow7" src={Arrow} />
-        <h1 className="productsText">products</h1>
-        <div className="SaunaproductsPage"><img className="SaunaproductsImage" src={SaunaProducts} /></div>
-        <img className="yellowarrow8" src={Arrow2} />
+        <div className="SaunalandingPage"><img className="landingpageImage3" src={SaunaLanding} /></div>
+        <img className="yellowarrow3" src={Arrow} />
+        <h1 className="shopText2">products</h1>
+        <div className="SaunaproductsPage"><img className="shoppageImage2" src={SaunaProducts} /></div>
+        <img className="yellowarrow5" src={Arrow2} />
         <button className="backToAvailableWork4" onClick={() => routeChange("/availablework")}><h2>back</h2></button>
     </div>
     </div>
